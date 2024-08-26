@@ -1,0 +1,127 @@
+@use "sass:map";
+@import "theme";
+@import "responsive";
+
+html,
+body{
+    margin: 0;
+}
+
+*{
+    font-size: Roboto;
+    padding: 0;
+    margin: 0;
+}
+.container {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+  
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-lg-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-lg-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+@include Responsive($DESKTOP){
+    .col-xl-3,
+    .col-xl-6 {
+        text-align: center;
+    }
+    .col-xl-3{
+        flex: 0 0 24%;
+        max-width: 24%;
+        
+    }
+    .col-xl-6{
+        flex: 0 0 48%;
+        max-width: 48%;
+       
+    }
+}
+@include Responsive($MEDIUM_DEVICE){
+    .col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-lg-9{
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+}
+@include Responsive($SMALL_DEEVICES){
+
+}
+#tmnavcmsblock{
+    float: right;
+    width: 200px;
+    padding: 25px 0;
+    margin-inline-start: 100px;
+    color: #fff;
+    img {
+      vertical-align: middle;
+      max-width: 100%;
+      border-style: none;
+  }
+
+  }
+  #tmpaymentcmsblock {
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    overflow: hidden;
+    z-index: 9;
+    left: -25px;
+  }
+  @media (min-width: 992px) {
+    .hidden-lg-up {
+        display: none !important;
+    }
+  }
+  
+  .search_widget form button[type="submit"] {
+    background-color: #333;
+    text-align: center;
+    display: flex; /* Điều chỉnh để căn giữa biểu tượng */
+    align-items: center; 
+    justify-content: center; 
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0 30px 30px 0;
+    background-size: 19px;
+    position: absolute;
+    height: 40px; /* Điều chỉnh chiều cao nếu cần */
+    width: 50px; /* Điều chỉnh chiều rộng nếu cần */
+    right: 220px; /* Đảm bảo nút nằm bên phải */
+    top: 0px;
+    cursor: pointer; /* Thêm con trỏ chỉ tay khi hover */
+  }
+  
+  .search_widget form input[type="text"] {
+    background: #fff;
+    border: 1px solid transparent;
+    color: #222;
+    font-size: 15px;
+    height: 40px;
+    padding: 1px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: calc(75% - 50px); 
+    border-radius: 30px; 
+  }
