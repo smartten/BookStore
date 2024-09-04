@@ -170,31 +170,103 @@ const Header =() => {
       </div>
     </div>
      
-        <div className=" container">
-            <div className="row">
-            <div className="col-lg-3">
-                <div className="hero-item-left">
+    <div className="container">
+    <div className="row">
+        <div className="col-lg-3">
+            <div className="tmleftbanner">
+           
+            </div>
 
+            <div id="tmtestimonialcmsblock" className="testimonial block">
+                <h4 className="block_title hidden-md-down">Our Client Says</h4>
+                <h4 className="block_title hidden-lg-up" data-target="#testimonialtoggle" data-toggle="collapse">
+                    Our Client Says
+                </h4>
+                <div className="testimonial_inner block_content collapse" id="testimonialtoggle">
+                    <div className="testimonial_inner">
+                        <ul id="testimonial_carousel" className="tm-carousel product_list owl-carousel owl-theme">
+                            <div className="owl-wrapper-outer">
+                                <div className="owl-wrapper">
+                                    <div className="owl-item">
+                                        <li className="item">
+                                            <div className="peoplesay-block">
+                                                <div className="test-content"></div>
+                                                <div className="test-desc">
+                                                    <span className="test-bg"></span>
+                                                    <p>Contrary to popular belief, Ipsum is not simply random text. Ipsum is not simply dummy text.</p>
+                                                    <div className="cms-box-heading">
+                                                        <a className="test-name" href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#">Lorem Dolor</a>
+                                                        <span className="manager">Manager</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div className="owl-item">
+                                        <li className="item">
+                                            <div className="peoplesay-block">
+                                                <div className="test-content"></div>
+                                                <div className="test-desc">
+                                                    <span className="test-bg"></span>
+                                                    <p>Contrary to popular belief, Ipsum is not simply random text. Ipsum is not simply dummy text.</p>
+                                                    <div className="cms-box-heading">
+                                                        <a className="test-name" href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#">Lorem Dolor</a>
+                                                        <span className="manager">Manager</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div className="owl-item">
+                                        <li className="item">
+                                            <div className="peoplesay-block">
+                                                <div className="test-content"></div>
+                                                <div className="test-desc">
+                                                    <span className="test-bg"></span>
+                                                    <p>Contrary to popular belief, Ipsum is not simply random text. Ipsum is not simply dummy text.</p>
+                                                    <div className="cms-box-heading">
+                                                        <a className="test-name" href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#">Lorem Dolor</a>
+                                                        <span className="manager">Manager</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <div className="owl-controls clickable">
+                            <div className="owl-pagination">
+                                <div className="owl-page"><span></span></div>
+                                <div className="owl-page"><span></span></div>
+                                <div className="owl-page active"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="col-lg-9">
-                  <div className="hero-item-right">
+            
+            <div className="tmleftbanner1">
+               
+            </div>
+        </div>
+
+        <div className="col-lg-9">
+            <div className="hero-item-right">
                 <div className="hero-text">
                     <span>Branded Choice</span>
                     <h2>Best Sell Books<br/>
-                    Collection
-                   <p></p>
-                    <Link to={"https://prs.themedemo.org/PRSADD15/PRS368/index.php#"} className="primary-btn">
-                    Shop now 
-                    </Link>
-                
+                        Collection
                     </h2>
-                    
+                    <Link to={"https://prs.themedemo.org/PRSADD15/PRS368/index.php#"} className="primary-btn">
+                        Shop now
+                    </Link>
                 </div>
-                </div>
-            </div>
             </div>
         </div>
+    </div>
+</div>
+
     </>
     );
 };

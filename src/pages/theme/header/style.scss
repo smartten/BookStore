@@ -259,14 +259,182 @@
        }
        }
     }
-    .hero-item-left {
+    #left-column {
+      padding: 0;
+      width: 20.8%;
+      margin-top: -50px;
+      
+      #tm_vertical_menu_top {
+        border-radius: 5px;
+        position: relative;
+        width: 100%;
+    
+        .block-title {
+          border-bottom: none;
+          float: left;
+          width: 100%;
+          padding: 10px 20px 14px;
+          cursor: pointer;
+        }
+      }
+    }
+    
+    .tmleftbanner, .tmleftbanner1 {
+      margin-right: auto;
+      background-repeat: no-repeat;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .tmleftbanner {
       margin-right: auto; // Pushes the left item to the left
       background-image: url("https://prs.themedemo.org/PRSADD15/PRS368/modules/tm_leftbanner/views/img/left-banner-1.jpg");
       background-repeat: no-repeat;
       height: 370px;
       display: flex;
       align-items: center;
-      width: 100%; // Adjust width as needed
+      width: 100%;
+      margin-top: 25px;
     }
- 
     
+    .tmleftbanner1 {
+      margin-right: auto; // Pushes the left item to the left
+      background-image: url("https://prs.themedemo.org/PRSADD15/PRS368/modules/tm_leftbanner1/views/img/left-banner-1.jpg");
+      background-repeat: no-repeat;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+    
+    #tmtestimonialcmsblock {
+      border: 1px solid #ded9d3;
+      margin-top: 10px;
+    
+      .block_title {
+        text-align: center; // Center align the title
+        border-bottom: 1px solid #ded9d3;
+        margin: 0 30px;
+        padding: 14px 0;
+        text-transform: capitalize; // Ensure title text is capitalized
+      }
+    }
+    
+    .testimonial_inner {
+      padding: 15px;
+    }
+    
+    .owl-item {
+      backface-visibility: hidden;
+      transform: translate3d(0, 0, 0);
+      text-align: center;
+      width: 229px;
+      display: inline-block; 
+    }
+    
+    .test-desc {
+      margin-top: 15px;
+    
+      .test-bg {
+        background: url("https://prs.themedemo.org/PRSADD15/PRS368/themes/PRSADD368/assets/img/megnor/quote.svg");
+        background-size: 24px;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 15px;
+      }
+    
+      p {
+        color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.3px;
+        margin: 0;
+        line-height: 22px;
+        margin-bottom: 27px;
+      }
+    }
+    
+    .tmcategorylist {
+      width: 100%;
+      margin: 40px 0;
+      position: relative;
+    }
+    
+    .tmcategory-container {
+      margin: 0 auto;
+      width: 100%;
+    }
+    
+    .products {
+      width: 100%;
+      padding: 15px;
+      background: #ebe6df;
+    }
+    
+    .customNavigation {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: -40px;
+      
+      a {
+        color: #222;
+        cursor: pointer;
+        height: 25px;
+        line-height: 25px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        width: 20px;
+        background: transparent;
+      }
+    }
+    
+    .owl-controls.clickable {
+      .owl-pagination {
+        .owl-page {
+          span {
+            // Add necessary styles if any
+          }
+        }
+        .owl-page.active {
+          span {
+            // Add necessary styles if any
+          }
+        }
+      }
+    }
+    
+    
+    ul {
+      list-style: none; /* Loại bỏ dấu đánh dấu của danh sách không thứ tự */
+      padding: 0; /* Loại bỏ khoảng cách mặc định */
+      margin: 0; /* Loại bỏ khoảng cách mặc định */
+    }
+    
+    ol {
+      list-style: none; /* Loại bỏ đánh số của danh sách thứ tự */
+      padding: 0; /* Loại bỏ khoảng cách mặc định */
+      margin: 0; /* Loại bỏ khoảng cách mặc định */
+    }
+
+
+    .test-name {
+      color: #d4223a;
+      font-size: 14px;
+      display: block;
+      letter-spacing: 0.3px;
+      text-transform: capitalize;
+      font-weight: 500;
+      position: relative;
+      line-height: 20px;
+      text-decoration: none;
+  }
+
+  

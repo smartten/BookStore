@@ -744,6 +744,526 @@ const Homepage = () => {
                 </div>
 </div>
 
+<div class="container">
+      <h2 class="heading">Bestseller Products</h2>
+      <div class="slider-wrapper">
+          <button id="prevBtn" class="slider-btn left-btn">‹</button>
+          <div class="slider">
+      
+          <div class="card">
+  <span class="badge new">New</span>
+  <span class="badge out-of-stock">Out-of-Stock</span>
+  <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=1&id_product_attribute=1&rewrite=hummingbird-printed-t-shirt&controller=product&id_lang=1#/1-size-small/8-color-white">
+    <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/2/4/24-home_default.jpg" alt="Encounters With Police" class="product-image"/>
+  </a>
+  <h3 class="product-title">Encounters With Police</h3>
+  <p class="brand-name">Brand2</p>
+  <p class="price">$33.90</p>
+      
+
+
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+
+              </div>
+              
+              <div class="card">
+                  <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/4/0/140-home_default.jpg" alt="Emory University Hospital" class="product-image"/>
+                  <h3 class="product-title">Emory University Hospital</h3>
+                  <p class="brand-name">Brand2</p>
+                  <p class="price">$120.00</p>
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>
+
+                     <div class="card">
+                  <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/1/6/116-home_default.jpg" alt="Dolphin Browser Android" class="product-image"/>
+                  <h3 class="product-title">Dolphin Browser Android</h3>
+                  <p class="brand-name">Brand1</p>
+                  <p class="price">$24.90</p>
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>  
+
+              <div class="card">
+                  <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/4/3/43-home_default.jpg" alt="Collins English Dictionary" class="product-image"/>
+                  <h3 class="product-title">Collins English Dictionary</h3>
+                  <p class="brand-name">Brand1</p>
+                  <p class="price">$45.00</p>
+
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>
+
+              <div class="card">
+                  <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/3/0/30-home_default.jpg" alt="Ear, Nose And Throat" class="product-image"/>
+                  <h3 class="product-title">Ear, Nose And Throat</h3>
+                  <p class="brand-name">Brand3</p>
+                  <p class="price">$45.90</p>
+
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>
+
+              <div class="card">
+              <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/8/1/81-home_default.jpg" alt="Hastings Hotels" class="product-image"/>
+                  <h3 class="product-title">Hastings Hotels</h3>
+                  <p class="brand-name">Brand3</p>
+                  <p class="price">$28.90</p>
+
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>
+              
+              <div class="card">
+              <span class="badge new">New</span>
+                  <img src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/6/8/68-home_default.jpg" alt="Futuregames In Sweden" class="product-image"/>
+                  <h3 class="product-title">Futuregames In Sweden</h3>
+                  <p class="brand-name">Brand3</p>
+                  <p class="price">$122.90</p>
+                  <div className="hover-block">
+  <div className="product-actions-main">
+    <form
+      action="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=cart"
+      method="post"
+      className="add-to-cart-or-refresh"
+    >
+      <input type="hidden" name="token" value="f84fb07d04fddacc75b38a5d182d116f" />
+      <input type="hidden" name="id_product" value="1" className="product_page_product_id" />
+      <input type="hidden" name="id_customization" value="0" className="product_customization_id" />
+      <button
+        className="btn btn-primary add-to-cart"
+        data-button-action="add-to-cart"
+        type="submit"
+        disabled
+        data-toggle="tooltip"
+        title="Out of stock"
+      >
+        + add to cart
+      </button>
+    </form>
+  </div>
+
+  <a
+    className="quick-view"
+    href="https://prs.themedemo.org/PRSADD15/PRS368/index.php#"
+    data-link-action="quickview"
+    data-toggle="tooltip"
+    title="Quickview"
+  >
+    {/* <i class="material-icons search"></i> Quick view */}
+  </a>
+
+  <div className="compare">
+    <a
+      className="st-compare-button btn-product btn"
+      href="#"
+      data-id-product="1"
+      title="Add to Compare"
+    >
+      <span className="st-compare-bt-content">
+        <i className="fa fa-area-chart"></i>
+        Add to Compare
+      </span>
+    </a>
+  </div>
+
+  <div className="wishlist">
+    <a
+      className="st-wishlist-button btn-product btn"
+      href="#"
+      data-id-wishlist=""
+      data-id-product="1"
+      data-id-product-attribute="1"
+      title="Add to Wishlist"
+    >
+      <span className="st-wishlist-bt-content">
+        <i className="fa fa-heart" aria-hidden="true"></i>
+        Add to Wishlist
+      </span>
+    </a>
+  </div>
+</div>
+              </div>
+
+
+          </div>
+          <button id="nextBtn" class="slider-btn right-btn">›</button>
+      </div>
+  </div>
+
+
     <div class="tmcategorylist">
         <div class="tmcategory-container container">
             <h1 class="products-section-title text-uppercase">Shop by category</h1>
