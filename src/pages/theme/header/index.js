@@ -8,46 +8,53 @@ import { BsCaretLeft, BsCaretRight } from "react-icons/bs";
 
 
 window.onload = function () {
-    const slider = document.querySelector('.slider');
-    const prevBtn = document.querySelector('#prevBtn');
-    const nextBtn = document.querySelector('#nextBtn');
-    prevBtn.style.display = 'none'; 
+  const slider = document.querySelector('.slider');
+  const prevBtn = document.querySelector('#prevBtn');
+  const nextBtn = document.querySelector('#nextBtn');
   
-    function checkButtonVisibility() {
-      const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
-  
-      if (slider.scrollLeft === 0) {
-        prevBtn.style.display = 'none';
-      } else {
-        prevBtn.style.display = 'block';
-      }
-  
-      if (slider.scrollLeft >= maxScrollLeft) {
-        nextBtn.style.display = 'none';
-      } else {
-        nextBtn.style.display = 'block';
-      }
+  prevBtn.style.display = 'none'; 
+
+  function checkButtonVisibility() {
+    const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+    console.log(`ScrollLeft: ${slider.scrollLeft}, MaxScrollLeft: ${maxScrollLeft}`);
+    
+    if (slider.scrollLeft === 0) {
+      prevBtn.style.display = 'none';
+    } else {
+      prevBtn.style.display = 'block';
     }
-      checkButtonVisibility();
+    
+    if (slider.scrollLeft >= maxScrollLeft) {
+      nextBtn.style.display = 'none';
+    } else {
+      nextBtn.style.display = 'block';
+    }
+  }
   
-    prevBtn.addEventListener('click', () => {
-      slider.scrollBy({
-        left: -220,
-        behavior: 'smooth'
-      });
-      setTimeout(checkButtonVisibility, 300);  
+  checkButtonVisibility();
+
+  prevBtn.addEventListener('click', () => {
+    console.log('Previous button clicked');
+    slider.scrollBy({
+      left: -220,
+      behavior: 'smooth'
     });
-  
-    nextBtn.addEventListener('click', () => {
-      slider.scrollBy({
-        left: 220,
-        behavior: 'smooth'
-      });
-      setTimeout(checkButtonVisibility, 300);  
+    setTimeout(checkButtonVisibility, 300);  
+  });
+
+  nextBtn.addEventListener('click', () => {
+    console.log('Next button clicked');
+    slider.scrollBy({
+      left: 220,
+      behavior: 'smooth'
     });
-  
-    slider.addEventListener('scroll', checkButtonVisibility);
-  };
+    setTimeout(checkButtonVisibility, 300);  
+  });
+
+  slider.addEventListener('scroll', checkButtonVisibility);
+};
+
+
 
 const Header =() => {
     const [isShowCategories, setShowCategories] = useState(false);
