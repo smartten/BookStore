@@ -13,6 +13,10 @@ body{
     margin: 0;
 }
 .container {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .container1 {
         max-width: 1170px;
         margin: auto;
     }
@@ -31,7 +35,8 @@ body{
 }
 .col-lg-3{
     flex: 0 0 25%;
-    max-width: 25%;
+    max-width: 21%;
+    align-self: flex-start;
 }
 .col-lg-9{
     flex: 0 0 75%;
