@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { AiOutlineHeart, AiOutlineMenu } from "react-icons/ai";
 import { BiGitCompare } from "react-icons/bi";
 import { BsCaretLeft, BsCaretRight } from "react-icons/bs";
+
+
 window.onload = function () {
     const slider = document.querySelector('.slider');
     const prevBtn = document.querySelector('#prevBtn');
