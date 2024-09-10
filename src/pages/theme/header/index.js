@@ -196,7 +196,7 @@ const Header =() => {
             
           </div>
           <div className="col-lg-9">
-          <div id="search_widget" className="col-lg-4 col-md-5 col-sm-12 search-widget">
+          <div id="search_widget" className=" search-widget">
             <span className="search_button"></span>
             <div className="search_widget">
               <form method="get" action="//prs.themedemo.org/PRSADD15/PRS368/index.php?controller=search">
@@ -216,6 +216,9 @@ const Header =() => {
               </form>
             </div>
           </div>
+          </div>
+          <div className="col-lg-3">
+            <p className="free-shipping-text">Free Shipping on Orders $50+</p>
           </div>
         </div>
       </div>
@@ -300,6 +303,95 @@ const Header =() => {
             <div className="tmleftbanner1">
                
             </div>
+
+            <div class="sidebar-latest">
+  <h4 class="block_title hidden-md-down">New Products</h4>
+  <h4 class="block_title hidden-lg-up" data-target="#block_latest_toggle" data-toggle="collapse">
+    New Products
+    <span class="pull-xs-right">
+      <span class="navbar-toggler collapse-icons">
+        <img src="https://example.com/icons/add.png" alt="Expand" class="add" />
+        <img src="https://example.com/icons/remove.png" alt="Collapse" class="remove" />
+      </span>
+    </span>
+  </h4>
+  <div class="block_content collapse" id="block_latest_toggle">
+    <div class="products-clearfix">
+      <div class="product-item">
+        <div class="left-part">
+          <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=19&id_product_attribute=173&rewrite=customizable-mug&controller=product&id_lang=1#/1-size-small/10-color-red" class="thumbnail product-thumbnail">
+            <img class="lazyloaded" data-src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/3/4/134-cart_default.jpg" alt="Customizable Mug" src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/3/4/134-cart_default.jpg" />
+          </a>
+          <ul class="product-flags js-product-flags">
+
+          </ul>
+        </div>
+        <div class="right-part">
+          <div class="product-description">
+            <div class="brand-infos">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=manufacturer?id_manufacturer=12">Brand4</a>
+            </div>
+            <span class="h3 product-title" itemprop="name">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=19&id_product_attribute=173&rewrite=customizable-mug&controller=product&id_lang=1#/1-size-small/10-color-red">Design Custom Posters</a>
+            </span>
+            <div class="product-price-and-shipping">
+              <span class="price">€151.27</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="left-part">
+          <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=18&id_product_attribute=171&rewrite=hummingbird-notebook&controller=product&id_lang=1#/2-size-medium/15-color-green" class="thumbnail product-thumbnail">
+            <img class="lazyloaded" data-src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/2/8/128-cart_default.jpg" alt="Hummingbird Notebook" src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/2/8/128-cart_default.jpg" />
+          </a>
+          <ul class="product-flags js-product-flags">
+         
+          </ul>
+        </div>
+        <div class="right-part">
+          <div class="product-description">
+            <div class="brand-infos">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=manufacturer?id_manufacturer=14">Brand3</a>
+            </div>
+            <span class="h3 product-title" itemprop="name">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=18&id_product_attribute=171&rewrite=hummingbird-notebook&controller=product&id_lang=1#/2-size-medium/15-color-green">lesser known monsters</a>
+            </span>
+            <div class="product-price-and-shipping">
+              <span class="price">€127.27</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="left-part">
+          <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=17&id_product_attribute=169&rewrite=brown-bear-notebook&controller=product&id_lang=1#/1-size-small/6-color-taupe" class="thumbnail product-thumbnail">
+            <img class="lazyloaded" data-src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/2/2/122-cart_default.jpg" alt="Brown Bear Notebook" src="https://prs.themedemo.org/PRSADD15/PRS368/img/p/1/2/2/122-cart_default.jpg" />
+          </a>
+          <ul class="product-flags js-product-flags">
+           
+          </ul>
+        </div>
+        <div class="right-part">
+          <div class="product-description">
+            <div class="brand-infos">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=manufacturer?id_manufacturer=12">Brand4</a>
+            </div>
+            <span class="h3 product-title" itemprop="name">
+              <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?id_product=17&id_product_attribute=169&rewrite=brown-bear-notebook&controller=product&id_lang=1#/1-size-small/6-color-taupe">Book cat polly faber</a>
+            </span>
+            <div class="product-price-and-shipping">
+              <span class="price">€27.60</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">
+      <a href="https://prs.themedemo.org/PRSADD15/PRS368/index.php?controller=new-products" class="allproducts btn btn-primary">All new products</a>
+    </div>
+  </div>
+</div>
         </div>
 
         <div className="col-lg-9">

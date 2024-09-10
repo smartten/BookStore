@@ -165,7 +165,6 @@
   position: relative;
   margin-left: 0;
   width: 780px;
-  float: right;
   padding: 5px 0;
   
   form {
@@ -280,6 +279,14 @@
       }
     }
     
+
+.free-shipping-text{
+  text-align: center;
+  color: #fff;
+  padding: 15px 25px 15px 40px;
+  
+}
+
     .tmleftbanner, .tmleftbanner1 {
       margin-right: auto;
       background-repeat: no-repeat;
@@ -1274,3 +1281,119 @@
   background: none;
 }
 }
+
+
+.siderbar-latest{
+  margin-top: 20px;
+      float: left;
+      padding: 0;
+      width: 100%;
+      margin-bottom: 30px;
+      overflow: hidden;
+      position: relative;
+  .block_title
+  {
+      color: #333;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.3;
+      margin: 0;
+      padding: 0;
+      text-transform: capitalize;
+      line-height: 18px;
+      border-bottom: 1px solid #ded9d3;
+      padding-bottom: 13px;
+  }
+  .block_content{
+      padding: 10px 0px 0px;
+      margin-bottom: 0;
+  .collapse {
+      float: left;
+      width: 100%;
+      display: block;
+  }
+  }
+  
+  }
+  
+  .product-clearfix{
+      margin-bottom: 0px;
+  .left-part {
+      float: left;
+      margin-right: 12px;
+  }
+  .right-part {
+      overflow: hidden;
+  }
+
+}
+  
+  .allproducts {
+      text-transform: capitalize;
+      float: left;
+      margin-top: 0px;
+      font-size: 14px;
+      width: auto;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -khtml-border-radius: 30px;
+      -moz-border-radius: 30px;
+      margin-top: 15px;
+      white-space: break-spaces;
+      word-break: break-word;
+  }
+  
+  .btn-primary {
+      background-color: #d4223a;
+      color: #fff;
+      text-transform: capitalize;
+      padding: 9px 22px 9px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .product-item{
+    display: flex;
+  }
+.brand-infos{
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      color: #666;
+      letter-spacing: 0.4px;
+      font-weight: 400;
+      text-transform: capitalize;
+  }
+  
+}
+
+.product-title{
+  a {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    font-weight: 500;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+}  .product-price-and-shipping {
+    color: #d4223a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3;
+    width: auto;
+    float: none;
+    margin-top: 6px;
+  }

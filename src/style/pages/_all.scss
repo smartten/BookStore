@@ -39,7 +39,6 @@ body{
     align-self: flex-start;
 }
 .col-lg-9{
-    flex: 0 0 75%;
     max-width: 75%;
 }
 @include Responsive($DESKTOP){
