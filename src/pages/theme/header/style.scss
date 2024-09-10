@@ -1283,7 +1283,8 @@
 }
 
 
-.siderbar-latest{
+.sidebar-latest{
+  margin-top: 20px;
       float: left;
       padding: 0;
       width: 100%;
@@ -1300,7 +1301,7 @@
       padding: 0;
       text-transform: capitalize;
       line-height: 18px;
-      border-bottom: 1px solid #ded9d3;
+      border-bottom: 1px solid red;
       padding-bottom: 13px;
   }
   .block_content{
